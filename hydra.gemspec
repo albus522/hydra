@@ -48,6 +48,7 @@ Gem::Specification.new do |s|
      "lib/hydra/safe_fork.rb",
      "lib/hydra/spec/autorun_override.rb",
      "lib/hydra/spec/hydra_formatter.rb",
+     "lib/hydra/spec/hydra_runner.rb",
      "lib/hydra/ssh.rb",
      "lib/hydra/stdio.rb",
      "lib/hydra/tasks.rb",
@@ -79,21 +80,21 @@ Gem::Specification.new do |s|
   s.rubygems_version = %q{1.3.6}
   s.summary = %q{Distributed testing toolkit}
   s.test_files = [
-    "test/pipe_test.rb",
-     "test/ssh_test.rb",
-     "test/fixtures/write_file_alternate_spec.rb",
-     "test/fixtures/sync_test.rb",
-     "test/fixtures/hello_world.rb",
+    "test/fixtures/assert_true.rb",
      "test/fixtures/features/step_definitions.rb",
-     "test/fixtures/assert_true.rb",
+     "test/fixtures/hello_world.rb",
      "test/fixtures/slow.rb",
+     "test/fixtures/sync_test.rb",
+     "test/fixtures/write_file.rb",
+     "test/fixtures/write_file_alternate_spec.rb",
      "test/fixtures/write_file_spec.rb",
      "test/fixtures/write_file_with_pending_spec.rb",
-     "test/fixtures/write_file.rb",
-     "test/message_test.rb",
-     "test/test_helper.rb",
      "test/master_test.rb",
+     "test/message_test.rb",
+     "test/pipe_test.rb",
      "test/runner_test.rb",
+     "test/ssh_test.rb",
+     "test/test_helper.rb",
      "test/worker_test.rb"
   ]
 
